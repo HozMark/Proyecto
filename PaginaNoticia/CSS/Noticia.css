@@ -1,0 +1,132 @@
+
+.barra1{
+  position: fixed;
+  width: 99%;
+  margin:auto;
+  height: 50px;
+  background-color:silver;
+  border:2px outset white ;
+  border-radius: 20px;  
+}
+
+.TituloArchivos{
+  margin: auto;
+  height: 30px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  padding: 5px;
+  left: 350px;
+  top: -10px;
+  opacity: 100%;
+ 
+}
+.logo{
+  
+  position: relative;
+  left:380px;
+  
+}
+.lupa{
+  float: center;
+  position: relative;
+left:500px  
+}
+input{
+  position:absolute;
+ left: 920px;
+ top:15px;
+   border-radius: 10px;
+}
+
+.barraDerecha{
+  float: right;
+}
+.BarraTitulo{
+  margin: auto;
+  width: 500px;
+  height: 60px;
+  position:center;
+  left: 400px;
+  background-color: rgba(78, 45, 45,0)!important;
+  padding: 0px;
+  border:2px outset white ;
+  border-radius: 20px;
+
+}
+
+.TituloNoticia{
+  text-align:center;
+  font-size: 40px;
+  color: white;
+  padding: 5px;
+}
+
+
+
+.barra4{
+margin:auto;
+position: center;
+display: flex;
+/*text-align: center;
+align-items: start;*/
+}
+
+.portada{
+margin: 10px 380px;
+position: center;
+width: 750px;
+height:350px ;
+border-radius: 10px;
+
+}
+
+  .barra5{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(255, 255, 255,0) !important;
+    padding: 0px;
+    border:2px outset white ;
+    border-radius: 20px;
+  }
+
+  .TextoNoticia{
+    margin:auto;
+    padding: 15px;
+    font-size: 20px;
+    color:whitesmoke;
+    position: center;
+  } 
+
+  div#barra6{
+
+    margin:center;
+   
+  }
+ textarea{
+ display:auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px 600px;
+   
+  }
+
+
+
+  body { padding-top:30px;}
+  .widget .panel-body { padding:0px; }
+  .widget .list-group { margin-bottom: 0; }
+  .widget .panel-title { display:inline }
+  .widget .label-info { float: right; }
+  .widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+  .widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+  .widget .mic-info { color: #666666;font-size: 11px; }
+  .widget .action { margin-top:5px; }
+  .widget .comment-text { font-size: 12px; }
+  .widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+
+ 

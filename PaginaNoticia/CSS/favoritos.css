@@ -1,0 +1,92 @@
+.barra1{
+    position: fixed;
+    width: 99%;
+    margin:auto;
+    height: 50px;
+    background-color:silver;
+    border:2px outset white ;
+    border-radius: 20px;  
+  }
+  
+  .TituloArchivos{
+    margin: auto;
+    height: 30px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    padding: 5px;
+    left: 350px;
+    top: -10px;
+    opacity: 100%;
+   
+  }
+  .logo{
+    
+    position: relative;
+    left:380px;
+    
+  }
+  .lupa{
+    float: center;
+    position: relative;
+  left:500px  
+  }
+  input{
+    position:absolute;
+   left: 920px;
+   top:15px;
+     border-radius: 10px;
+  }
+  
+  .barraDerecha{
+    float: right;
+  }
+  .BarraTitulo{
+    margin: auto;
+    width: 500px;
+    height: 60px;
+    position:center;
+    left: 400px;
+    background-color: rgba(78, 45, 45,0)!important;
+    padding: 0px;
+    border:2px outset white ;
+    border-radius: 20px;
+  
+  }
+
+
+  .botonesMenu{
+
+border: 2px solid whitesmoke;
+border-radius: 5px;
+width: 300px;
+height: 100%;
+
+
+
+  }
+
+  .menu{
+    
+    font-size: 50px;
+    color: whitesmoke;
+  }
+
+.favoritos{
+  margin:-360px 350px;
+
+
+}
+
+.favs{
+
+  font-size: 30px;
+  color: yellow;
+}
+.FAVORITO{
+  font-size: 40px;
+}
+
+ 

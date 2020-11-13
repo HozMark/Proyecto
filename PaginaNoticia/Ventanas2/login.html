@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PruebaPaginaInicio</title>
+   <link href="index.css" rel="stylesheet" id="bootstrap-css">
+   <script src="jquery.js"></script>
+   <script src="index.js"></script>
+</head>
+<body>
+   <div class="sidenav">
+      <div class="login-main-text">
+         <h1 style="text-align:center">Archivos Siniestros</h1>
+         <a href="feed.html">
+         <img src="ArchivosSiniestrosLogo.png" alt=Logo style="width:100px;height:100px;" class="mainLogo">
+      </a>
+         <h2 style="text-align:center">Entrar sin registrar</h2>
+      </div>
+   </div>
+   <div class="main">
+      <div class="col-md-6 col-sm-12">
+         <div class="login-form">
+            <form>
+               <div class="form-group">
+                  <label style="color:white" >Usuario</label><br>
+                  <input type="text" class="form-control" placeholder="XXXXXXXXXX" style="text-align:center"><br> 
+               </div>
+               <div class="form-group">
+                  <label style="color:white">Contraseña</label><br>
+                  <input type="password" class="form-control" placeholder="XXXXXXXXXX" style="text-align:center"><br><br>
+               </div>
+               <button type="submit" class="btn btn-black">Iniciar sesión</button>
+               <br><br>
+               <button type="submit" class="btnRegister" onclick="showRegister()">¿Nuevo? Crea tu cuenta</button>
+               <button type="submit" class="btnRegister" onclick="hideRegister()">Mejor No</button>
+            </form>
+         </div>
+         <div class="register-form" id='register'>
+            <form>
+            <div class="form-group">
+            <label>Correo</label>
+            <input type="text" class="form-control" placeholder="XXXXXXXXXX" style="text-align:center"><br><br> 
+         </div>
+         <div class="form-group">
+            <label>Usuario</label>
+            <input type="text" class="form-control" placeholder="XXXXXXXXXX" style="text-align:center"><br><br> 
+         </div>
+         <div class="form-group">
+            <label>Contraseña</label>
+            <input type="text" class="form-control" placeholder="XXXXXXXXXX" style="text-align:center"><br><br> 
+         </div>
+         <div class="form-group">
+            <label>Confirmar contraseña</label>
+            <input type="text" class="form-control" placeholder="XXXXXXXXXX" style="text-align:center"><br><br> 
+         </div>
+         <div class="form-group">
+            <label>Avatar</label>
+            <input type="image" src="AxolotlPfp.jpg" alt="avatar" width="48" height="48">
+         </div>
+         <br>
+         <button type="submit" class="btnRegis">Registrar</button>
+      </form>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
